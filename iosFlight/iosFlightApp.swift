@@ -8,7 +8,8 @@
 import SwiftUI
 import SwiftData
 
-@main
+@available(iOS 17, *)
+//@main
 struct iosFlightApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
